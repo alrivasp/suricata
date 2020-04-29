@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --bg-color: #e83e8c;
+    --bg-tarjetas: #17a2b8;
+    --logo-img-width: 132px;
+    --logo-img-height: 53px;        
+    --logoFooter-img-width: 53px;
+    --logoFooter-img-height: 100px;
+    --pink:#707070;
+}
+
+.bg-pink {
+    background: var(--bg-color);
+}
+
+
+.img-logo {
+    width: var(--logo-img-width);
+    height: var(--logo-img-height);
+}
+
+.img-logoFooter {
+    width: var(--logoFooter-img-width);
+    height: var(--logoFooter-img-height);
+}
+
+.title-main{
+    color: var(--pink);    
+}
+
+.font-size-13{
+    font-size: 0.813rem;
+}
+
+@media (min-width: 768px) {
+    header h1{
+        font-size: 3.75rem;
+    }
+}
+
+.icons-section {
+     background: var(--bg-tarjetas);
+}
